@@ -1,0 +1,80 @@
+
+
+/* 
+color pallet
+green= #0C9809      blue=  #35409C #3742A0       yellow= #F9E50C #FFF200        white= #FFFFFF
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+#priceTable {
+    margin-top: 2%;
+}
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+    top: 70%;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #BFB8BF;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+    background-color: #3742A0;
+    color: #ECEDE5;
+    font-size: 25px;
+}
+
+.price {
+    color: #3742A0;
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #BFB8BF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+    background-color: #FFFFFF;
+    font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+    background-color: #3742A0;
+    border: none;
+    color: #ECEDE5;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}

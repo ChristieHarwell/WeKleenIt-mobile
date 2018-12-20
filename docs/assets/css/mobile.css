@@ -1,0 +1,16 @@
+/* 
+color pallet
+green= #0C9809      blue=  #35409C #3742A0       yellow= #F9E50C #FFF200        white= #FFFFFF
+*/
+
+
+.video {
+    display: block;
+}
+
+@media (max-width: 640px) 
+{
+    .video {
+        display: none;
+    }
+}
