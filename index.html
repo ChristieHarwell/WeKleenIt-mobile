@@ -23,14 +23,46 @@
   </head>
   <body>
     <div class="container-fluid">
-    <!-- ================================================= -->
+      <!-- NAVBAR -->
+      <header class="header" style="width: 100%; position: fixed; z-index: 100;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img src="docs/assets/images/wekleenit-6.png" width="40" height="40" alt="">
+          </a>
+  
+          <!-- navbar menu when the screen is smaller (phpones and tablets) -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- navbar menu -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navbar-center">
+              <li class="nav-item active">
+                <a class="nav-link" href="#" id="navLink">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navLink">General Cleaning</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navLink">Cleaning +</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navLink">Premium Cleaning</a>
+              </li>     
+            </ul>                     
+          </div>      
+        </nav>
+      </header>
+      <!-- /NAVBAR -->
+      <!-- ================================================= -->
     
       <!-- MAIN VIDEO -->
       <div class="video" style="max-height: 300px; z-index: 999; object-fit: fill; left: 50%;">          
         <div class="homepage-hero-module" style="object-fit: fill;">
           <div class="video-container" style="object-fit: fill;">
             <div class="filter" style="object-fit: fill;"></div>
-            <video autoplay loop class="fillWidth" style="object-fit: fill;">
+            <video autoplay loop class="fillWidth" style="object-fit: fill; width: max-content;">
               <source src="docs/assets/video/Indian Tea/Indian Tea.mp4" type="video/mp4" style="max-height: 300px; object-fit: fill;"/>Your browser does not support the video tag. I suggest you upgrade your browser.
               <source src="docs/assets/video/Indian Tea/Indian Tea.webm" type="video/webm" style="max-height: 300px; object-fit: fill;"/>Your browser does not support the video tag. I suggest you upgrade your browser.
             </video>
@@ -47,7 +79,7 @@
       </div>
         <!-- /MAIN VIDEO -->
 
-    <!-- ================================================= -->
+      <!-- ================================================= -->
       
     </div>
   </body>
